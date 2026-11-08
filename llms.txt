@@ -1,0 +1,81 @@
+
+# US Stocks — Historical US Stock Market Dataset
+
+> US Stocks is an open-source project providing historical daily stock market data for US-listed companies, along with Python scripts for retrieving, processing, and visualizing the data. It is intended for financial research, quantitative analysis, data science, and machine learning.
+
+## Project Overview
+
+This repository contains historical daily stock market data collected using Python and yfinance.
+
+The project currently includes data collected for:
+
+- NASDAQ: 1,806 companies
+- NYSE: 1,045 companies
+- NYSE American (AMEX): 0 companies
+- Total: 2,851 companies
+
+These figures represent the companies collected in this project, not the total number of companies listed on each exchange.
+
+## Available Data
+
+The dataset is organized by stock exchange and ticker symbol.
+
+Where available, individual company datasets include:
+
+- Date
+- Open
+- High
+- Low
+- Close
+- Volume
+- Daily_Return
+
+The data is stored in CSV format. Historical price charts are also provided as PNG images where available.
+
+Prices are retrieved using yfinance with automatic adjustment enabled. Therefore, OHLC prices may reflect adjustments for stock splits and dividends.
+
+## Repository Structure
+
+- `nasdaq/`: Historical stock data and visualizations for collected NASDAQ companies.
+- `nyse/`: Historical stock data and visualizations for collected NYSE companies.
+- `ticker_list/`: Ticker symbol lists used by the project.
+- `project.py`: Main project script.
+- `retrieve_stock_data.py`: Stock data retrieval script.
+- `test.py`: Additional testing and experimentation.
+
+## Important Resources
+
+- [README](https://github.com/eshaanmattoo/us_stocks/blob/main/README.md): Project introduction, dataset information, and usage instructions.
+- [Main data retrieval script](https://github.com/eshaanmattoo/us_stocks/blob/main/retrieve_stock_data.py): Python implementation for retrieving stock market data.
+- [Project script](https://github.com/eshaanmattoo/us_stocks/blob/main/project.py): Main project implementation.
+- [NASDAQ dataset](https://github.com/eshaanmattoo/us_stocks/tree/main/nasdaq): Browse collected NASDAQ stock data.
+- [NYSE dataset](https://github.com/eshaanmattoo/us_stocks/tree/main/nyse): Browse collected NYSE stock data.
+- [Ticker lists](https://github.com/eshaanmattoo/us_stocks/tree/main/ticker_list): Browse ticker symbol lists.
+
+## Intended Use Cases
+
+This dataset may be useful for:
+
+- Historical stock market analysis
+- Financial data visualization
+- Quantitative finance research
+- Time-series forecasting
+- Machine learning and deep learning experiments
+- Stock return and volatility analysis
+- Financial news and sentiment analysis
+- Algorithmic trading research
+
+## Data Limitations
+
+- Data availability depends on the underlying yfinance data source.
+- Historical coverage varies by company and IPO date.
+- Not every listed company is necessarily included.
+- The repository does not guarantee real-time or complete market coverage.
+- Historical data should be independently validated before being used in financial research or trading systems.
+- This project is intended for educational and research purposes, not financial advice.
+
+## Data Source
+
+Historical stock market data is retrieved through [yfinance](https://github.com/ranaroussi/yfinance), which provides access to Yahoo Finance data.
+
+
