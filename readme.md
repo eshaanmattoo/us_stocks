@@ -17,6 +17,8 @@ The project provides a collection of US stock ticker lists, historical market-da
 
 It is intended to help students, developers, researchers, quantitative analysts, and machine learning practitioners access and work with historical US equity market data.
 
+![Apple Stock Chart](nasdaq/AAPL/AAPL_chart.png)
+
 The project is particularly relevant to:
 
 - Historical stock market data analysis
