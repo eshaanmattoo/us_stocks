@@ -5,8 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Market](https://img.shields.io/badge/Market-US%20Equities-blue)](https://www.nasdaq.com/market-activity/stocks/screener)
 [![Exchanges](https://img.shields.io/badge/Exchanges-NASDAQ%20%7C%20NYSE-green)](https://github.com/eshaanmattoo/us_stocks)
-[![Data Frequency](https://img.shields.io/badge/Frequency-Daily-orange)](https://github.com/eshaanmattoo/us_stocks)
-
+[![Data Frequency](https://img.shields.io/badge/Frequency-Weekly-orange)](https://github.com/eshaanmattoo/us_stocks)
 **Repository:** https://github.com/eshaanmattoo/us_stocks
 
 ## Overview
